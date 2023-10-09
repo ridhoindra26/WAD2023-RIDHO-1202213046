@@ -1,0 +1,19 @@
+
+img{
+    width: auto; 
+    height: 600px;
+}
+
+.foto{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.row{
+    border-radius: 30px;
+}
+
+.portofolio{
+    border-radius: 30px;
+}
