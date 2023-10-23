@@ -103,7 +103,8 @@ else {
                     <!-- silakan taruh code kalian di bawah -->
                     <?php
                         if (isset($error)){
-                            echo 'Tinggi badan dan berat badan tidak boleh kosong';
+                            echo '<p>Tinggi badan dan berat badan tidak boleh kosong</p>';
+                            echo '';
                         }
 
 
