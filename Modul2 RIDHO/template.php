@@ -33,7 +33,7 @@ if (!$tinggi_badan || !$berat_badan) {
 else {
     $tinggi_badanm = $tinggi_badan / 100;
 
-    $BMI = $berat_badan/($tinggi_badanm**2);
+    $BMI = round($berat_badan/($tinggi_badanm**2),2);
     
     if ($BMI <= 18.4) {
         $hasil = 'Underweight';
