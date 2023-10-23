@@ -90,8 +90,8 @@ else {
                     
                     <?php
                         if (isset($hasil)){
-                        echo 'Hasil Perhitungan BMI adalah ',$BMI;
-                        echo 'Jadi Kesimpulannya adalah kamu ',$hasil;
+                        echo '<p>Hasil Perhitungan BMI adalah ',$BMI,'</p>';
+                        echo '<p>Jadi Kesimpulannya adalah kamu ',$hasil,'</p>';
                         }
                     ?>  
                     <!--  **********************  4  **************************     -->
