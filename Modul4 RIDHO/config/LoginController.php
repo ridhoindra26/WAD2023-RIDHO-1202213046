@@ -30,7 +30,7 @@ function login($input) {
         // 
         // password_verify($password, $result['password'])
         // b. Lakukan verifikasi password menggunakan fungsi password_verify
-        if ($password == $result['password']) {
+        if (password_verify($password, $result['password'])) {
             
             
             // c. Set variabel session dengan key login untuk menyimpan status login
